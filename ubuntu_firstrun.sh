@@ -110,6 +110,11 @@ gsettings set org.gnome.clocks geolocation true
 gsettings set com.ubuntu.touch.network gps false
 gsettings set "org.gnome.shell" "favorite-apps" "['google-chrome.desktop', 'org.gnome.Nautilus.desktop', 'code.desktop', 'org.gnome.TextEditor.desktop', 'firefox_firefox.desktop', 'chrome-hpfldicfbfomlpcikngkocigghgafkph-Default.desktop']"
 gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize-or-previews'
+gsettings set org.gnome.settings-daemon.plugins.media-keys custom-keybindings "['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']"
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/ name 'xkill'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/ command 'xkill'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/ binding '<Control><Alt>x'
+
 
 # Final message
 echo "setup completed successfully! Please reboot your system."
