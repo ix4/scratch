@@ -31,6 +31,9 @@ sudo apt install -y ubuntu-restricted-extras ubuntu-drivers-common
 sudo apt install -y deja-dup dconf-editor
 sudo apt install -y gparted
 
+
+sudo apt install -y htop
+
 ########################################
 # Install Google Chrome
 # wget --progress=dot:giga "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb" -O /tmp/chrome_stable_current_amd64.deb
@@ -59,9 +62,9 @@ sudo apt install code # or code-insiders
 
 ########################################
 # # Install Kodi Media Center
-# sudo add-apt-repository -y ppa:team-xbmc/ppa
-# sudo apt update
-# sudo apt install -y kodi
+sudo add-apt-repository -y ppa:team-xbmc/ppa
+sudo apt update
+sudo apt install -y kodi
 
 ########################################
 # Install AnyDesk
