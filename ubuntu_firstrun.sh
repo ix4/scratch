@@ -31,7 +31,6 @@ sudo apt install -y ubuntu-restricted-extras ubuntu-drivers-common
 sudo apt install -y deja-dup dconf-editor
 sudo apt install -y gparted
 
-
 sudo apt install -y htop
 
 ########################################
